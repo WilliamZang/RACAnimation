@@ -1,0 +1,32 @@
+PODS:
+  - Expecta (0.3.2)
+  - RACAnimation (0.0.1):
+    - RBBAnimation (~> 0.3.0)
+    - ReactiveCocoa (~> 2.4.7)
+  - RBBAnimation (0.3.0)
+  - ReactiveCocoa (2.4.7):
+    - ReactiveCocoa/UI (= 2.4.7)
+  - ReactiveCocoa/Core (2.4.7):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.4.7)
+  - ReactiveCocoa/UI (2.4.7):
+    - ReactiveCocoa/Core
+  - Specta (0.4.0)
+
+DEPENDENCIES:
+  - Expecta (~> 0.3.2)
+  - RACAnimation (from `.`)
+  - Specta (~> 0.4.0)
+
+EXTERNAL SOURCES:
+  RACAnimation:
+    :path: .
+
+SPEC CHECKSUMS:
+  Expecta: ee641011fe10aa1855d487b40e4976dac50ec342
+  RACAnimation: f2f194ce8ed575c5d74322a882691896aaf0b6bd
+  RBBAnimation: 243d73be1a526f1b51d266b182e4aa0cfe9cbf64
+  ReactiveCocoa: 313fc53cc9aeb2bbbc3f5f13c7eac16478d9af8f
+  Specta: 1df326d6ec48603c77f507a0ab1f89ad2df1c582
+
+COCOAPODS: 0.35.0
